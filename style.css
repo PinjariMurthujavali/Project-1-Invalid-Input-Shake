@@ -1,0 +1,24 @@
+/*resets padding and margin for all elements*/
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Times New Roman";
+}
+/*styles the entire page with a gradient background*/
+body{
+    background-color: aqua;
+    background: linear-gradient(to right,white,orange);
+
+}
+form{
+    width:min(90%,25em);
+    background-color: aliceblue;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 5em 2em;
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+}
